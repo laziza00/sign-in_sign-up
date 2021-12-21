@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins','Sans-serif';
+    content: '';
+    background-image: url('../images/backgrund.jpg');
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.enter-inner{
+    padding: 31px 0 0 42px;
+}
+.div-logo{
+    /* padding: 31px 0 0 42px; */
+}
+.your-logo-text{
+    justify-content: flex-start;
+    width: 100px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+.form-inner{
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.form-box{
+    padding: 44px 44px 0 44px;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 40px;
+    width: 539px;
+    height: 741px;
+}
+.form-text{
+    font-size: 21px;
+    line-height: 31px;
+    color: #000000;
+    margin-bottom: 1px;
+}
+.form-title{
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 82px;
+    color: #000000;
+    margin-bottom: 43px;
+}
+.form-title-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-text span{
+    color: #4f914f;
+    font-weight: bold;
+}
+.form-link-title{
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 19px;
+    color: #8D8D8D;
+}
+.form-link-title.sign-up{
+    color: #4f914f;
+}
+.google-link{
+    background: #E9F1FF;
+    border-radius: 9px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    padding: 15px 21px 14px 32px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4285F4;
+    text-decoration: none;
+}
+.google-img{
+    margin-right: 21px;
+    align-items: center;
+}
+.link-face{
+    background: #FFFFFF;
+    border-radius: 9px;
+    width: 60px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+}
+.form-social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.label{
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    display: block;
+    margin-bottom: 13px;
+}
+.input-label{
+    background: #FFFFFF;
+    border: 1px solid #4285F4;
+    box-sizing: border-box;
+    border-radius: 9px;
+    width: 451px;
+    height: 57px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #808080;
+    padding-left: 25px;
+
+}
+.email{
+    margin-bottom: 36px;
+}
+.password{
+    display: inline-block;
+    display: flex;
+    margin-bottom: 12px;
+}
+.forgot-link{
+    font-size: 13px;
+    line-height: 19px;
+    color: #4285F4;
+    text-decoration: none;
+    display: block;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 44px;
+}
+.btn-form{
+    width: 236px;
+    height: 54px;
+    background-color: #779341;
+    box-shadow: 0px 4px 19px rgba(119, 147, 65, 0.3);
+    border-radius: 10px;
+    cursor: pointer; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 15px 80px;
+    outline: none;
+    border: 2px solid transparent;
+    display: block;
+    display: flex;
+    justify-content: flex-end;
+}
+.btn-form:hover{
+    border-color: #fff ;
+    background-color: #3d5214;
+    transition: all 0.5s ease;
+    outline-style: initial;
+}
+.name{
+    width: 216px;
+    height: 57px;
+}
+.user-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 33px;
+}
+.sign-password{
+    margin-bottom: 78px;
+}
