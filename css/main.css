@@ -165,7 +165,7 @@ body{
 .btn-form:hover{
     border-color: #fff ;
     background-color: #3d5214;
-    transition: all 0.5s ease;
+    transition: all 1s ease;
     outline-style: initial;
 }
 .name{
