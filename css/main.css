@@ -160,6 +160,7 @@ body{
     display: block;
     display: flex;
     justify-content: flex-end;
+    margin-left: auto;
 }
 .btn-form:hover{
     border-color: #fff ;
